@@ -1,17 +1,15 @@
 #!/bin/bash
 
 
-TARGET="flask_ml_demo"
+TARGET="house_price_predict"
 VERSION="1.0.0"
 
 FLASK_PROT=5000
 
 
-REPO_URL="105372338271.dkr.ecr.us-east-1.amazonaws.com/flask_app"
+REPO_URL="105372338271.dkr.ecr.us-east-1.amazonaws.com/house_price_predict"
 
  
-
-
 USAGE="
 
 USAGE: $(basename "$0") start|START port 8010  8011 ... 
