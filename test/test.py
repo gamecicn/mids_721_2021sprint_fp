@@ -4,12 +4,17 @@ import json
 import base64
 
 
-BASE_URL = "http://127.0.0.1:5001"
- 
+# BASE_URL = "http://3.93.216.62:80"
+
+BASE_URL = "http://house-price-lb-925405325.us-east-1.elb.amazonaws.com"
+
+
+
+
 def test_analysis_emotion():
 
     data = {
-        'data'  :   [59.10,0,0,1,0,3,1],
+        'data'  :   [70,0,1,0,1,3,5],
     }
 
     header_dict = {"Content-Type": "application/json"}
@@ -23,5 +28,7 @@ def test_analysis_emotion():
  
  
 if __name__ == "__main__":
-    test_analysis_emotion()
+
+    for i in range(0, 10):
+        test_analysis_emotion()
   

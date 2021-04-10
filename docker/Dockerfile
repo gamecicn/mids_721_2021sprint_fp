@@ -9,7 +9,7 @@ FROM python:3.6-buster
 
 COPY  ./requirement.txt /app/requirement.txt
 
-RUN pip install -r /app/requirement.txt
+RUN pip install -r /app/requirement.txt -i http://mirrors.aliyun.com/pypi/simple/   --trusted-host mirrors.aliyun.com
 
 COPY  ./server   /app/server
 COPY  ./model    /app/model

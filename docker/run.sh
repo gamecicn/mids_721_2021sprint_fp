@@ -44,11 +44,10 @@ build_image(){
    cp -rf ../server . 
    cp -rf ../model . 
    
-   sudo docker build . -t "$TARGET":"$VERSION"
+   sudo docker build . -t "$TARGET":"$VERSION" --network host
    
    rm -rf ./server
    rm -rf ./model
-   rm -rf ./requirement.txt
 }
 
 

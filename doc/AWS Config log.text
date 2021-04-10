@@ -1,0 +1,55 @@
+Instance typet3a.micro
+Desired number of instances2
+Key pair
+ECS AMI IDami-005425225a11a4777
+VPC vpc-0f3d230130bb07eb2
+Subnet 1subnet-08903e4f276e78b28
+Subnet 1 route table associationrtbassoc-01b3c427beeda919d
+Subnet 2subnet-01dc48973f216cd81
+Subnet 2 route table associationrtbassoc-0020f13abde22b984
+VPC Availability Zonesus-east-1a, us-east-1b, us-east-1c, us-east-1d, us-east-1e, us-east-1f
+Security groupsg-055bd4bcef460aaec
+Internet gatewayigw-0090c0ae22782cc46
+Route tablertb-00a6eaac763b7ce10
+Amazon EC2 routeEC2Co-Publi-8VSZ5FUPAKFX
+Virtual private gateway attachmentEC2Co-Attac-1JUSOE8FGOXSF
+Launch configurationEC2ContainerService-house-price-predict-EcsInstanceLc-AJW00QQP59PY
+Auto Scaling groupEC2ContainerService-house-price-predict-EcsInstanceAsg-13CZNK4QBSW74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
