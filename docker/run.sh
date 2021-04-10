@@ -2,7 +2,7 @@
 
 
 TARGET="house_price_predict"
-VERSION="1.0.0"
+VERSION="1.1.0"
 
 FLASK_PROT=5000
 
@@ -107,7 +107,7 @@ elif [[ $op == "start" ]]; then
    echo "*** STARTING "
    for var in $PORT
    do
-      sudo docker run -d -p "$var":"$FLASK_PROT" \
+      sudo docker run -d -p "$var":"$FLASK_PROT" --network host \
       -t "$TARGET":"$VERSION"
    done
 elif [[ $op == "load" ]]; then
