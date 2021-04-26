@@ -29,7 +29,7 @@ Elastic Load Balancing (ELB) is used as load balance for the system. ELB can aut
 
 
 #  YouTube
-
+https://www.youtube.com/watch?v=5GU64aM_oOQ
 
 
 
